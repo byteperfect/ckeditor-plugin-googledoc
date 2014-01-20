@@ -3,7 +3,7 @@ ckeditor-plugin-googledoc
 
 Подключение плагина.
 ====================
-1. Скопировать каталог googledoc в ckeditor/plugins/googledocs/
+1. Скопировать файлы в ckeditor/plugins/googledocs/
 2. Добавить в config.js
   //  подключаю плагин
   config.extraPlugins = '...,googledocs,...';
