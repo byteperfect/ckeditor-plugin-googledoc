@@ -8,17 +8,12 @@ ckeditor-plugin-googledoc
 
   //  подключаю плагин
   // add plugin to CKEditor
-  
   config.extraPlugins = '...,googledocs,...';
-
   //  по этому адресу обрабатывается загрузка документа на сервер
   // URL of a upload script
-  
   config.filebrowserGoogledocsUploadUrl = 'http://site.com/documentUpload.php';
-
   //  по этому адресу можно получить список документов на сервере
   // URL where you can get a list of uploaded documents
-  
   config.filebrowserGoogledocsBrowseUrl = 'http://site.com/documentsList.php';
 
 3. A sample of documentUpload.php and documentsList.php you can get here.
